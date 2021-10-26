@@ -90,7 +90,7 @@ async function run() {
 run().catch(console.dir)
 
 app.get('/', (req, res) => {
-    res.send('Make islamic server running')
+    res.send('Make islamic server Running')
 });
 
 app.listen(port, () => {
